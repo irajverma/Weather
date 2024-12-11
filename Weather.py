@@ -16,7 +16,7 @@ def get_location(city_name):
         return None, None
 
 def get_weather(latitude, longitude):
-    api_key = "8693011a41102b2390a1f94f2995315e"  # Replace with your OpenWeatherMap API key
+    api_key = ""  # Replace with your OpenWeatherMap API key
     url = f"http://api.openweathermap.org/data/2.5/weather?lat={latitude}&lon={longitude}&appid={api_key}&units=metric"
 
     try:
